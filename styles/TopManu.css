@@ -1,0 +1,48 @@
+.addon_text_box {
+  display: none !important;
+  width: 100% !important;
+}
+.addon_text_box2:focus {
+  box-shadow: none !important;
+  border: 1px solid #f68422 !important;
+}
+/* .hidden-search-box::-webkit-input-placeholder { 
+  color: red!important;
+  z-index: 1;
+}
+
+.hidden-search-box:-ms-input-placeholder { 
+  color: red!important;
+  z-index: 1;
+}
+
+.hidden-search-box::placeholder {
+  color: red!important;
+  z-index: 1;
+} */
+.addon_text_box2 {
+  position: absolute;
+  display: block !important;
+  right: 0%;
+  top: 0%;
+  width: 100% !important;
+  height: 45px;
+  background-color: #838383 !important;
+  padding: 8px 10px !important;
+  animation: search 0.3s;
+}
+/* animation */
+@keyframes search {
+  from {
+    height: 0px;
+  }
+  to{
+    height: 45px;
+  }
+}
+.res_search_icon {
+  color: #666;
+}
+.responsive_form{
+  display: none;
+}
